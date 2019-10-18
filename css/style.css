@@ -1,0 +1,609 @@
+/*Use media queries and xs-hidden*/
+/*use a nav bar for the mobile size (a drop ul-li)*/
+* {
+    box-sizing: border-box;
+}
+/*a parent-child element that keeps the interior of the border the same size regardless of the border size*/
+
+body {
+    background: url(../media/pattern.jpg);
+    font-family: Armata;
+}
+
+/*-----Main Page Component END------------------------------------------------------------------------------------------------------------------*/
+
+.top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topNav {
+    margin-top: 25px;
+}
+
+.topNav li {
+    padding: 0px 22px;
+    display: inline;
+}
+
+.topNav a {
+    color: black;
+}
+
+/*topNav END----------------------------*/
+
+.colors {
+    position: relative;;
+    background: #a0c63f;
+}
+
+.colors button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 180px;
+    border-radius: 50px;
+    border: 5px solid white;
+    background: #8eb53e;
+    color: white;
+}
+
+.button_left {
+    left: 6px;
+}
+
+.button_right {
+    right: 6px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/*hero END---------------------------------*/
+
+/*---Header END--------------------------------------------------------------*/
+
+.top_main {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.top_main h2 {
+    margin-top: 55px;
+}
+
+.top_main p {
+    font-size: 15px;
+}
+
+.circle img {
+    position: relative;
+    margin-top: 45px;
+    margin-left: 90px;
+    border-radius: 50%;
+}
+
+.ring {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 4px;
+    left: 61px;
+    border-radius: 100px;
+    border: 17px solid white;
+    background: rgb(142, 181, 62);
+    box-shadow: 0px 0px 0px 1px #dedede;
+}
+
+/*Circle END----------------------------------------*/
+
+.next_title {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.title {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.title span {
+    color: #8eb53e;
+}
+
+.title_line {
+   margin-top: 33px;
+   background-repeat: repeat-x;
+   background: url(../media/dash.gif)
+}
+
+
+/*Title END--------------------------------------------*/
+
+.border {
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.next_info {
+   font-size: 13px
+}
+
+.next_info img {
+    width: 100%;
+}
+
+.no_padding {
+    padding: 0px;
+}
+
+.next_info h3 {
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.next_info p {
+    margin-top: 12px;
+}
+
+.next_info a {
+    padding: 3px 10px;
+    background: #8eb53e;
+    color: white;
+}
+
+.next_info_bottom {
+    margin-top: 35px;
+} 
+
+/*next_info END---------------------------------------*/
+
+.final_info {
+    padding: 0px;
+}
+
+.final_info ul {
+    padding: 0px;
+}
+
+.final_info li{
+    text-align: center;
+    display: inline;
+}
+
+.margins {
+    margin-right: 35px;
+}
+
+/*final_info END------------------------------------*/
+
+.button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.button button {
+    width: 50px;
+    height: 50px;
+    background: #8eb53e;
+    border: 1px solid #8eb53e;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.button a {
+    color: white;
+}
+
+/*---Main END-----------------------------------------------------------------------------*/
+
+footer {
+    background: white;
+    border-top: 1px solid rgb(241, 241, 241);
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+/*footer END---------------------------------------*/
+
+.footer_slots {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.media ul {
+    padding: 0px;
+}
+
+.media li {
+    display: inline;
+}
+
+.spacing {
+    margin-bottom: 20px;
+}
+
+.no_spacing {
+    margin-bottom: 10px;
+}
+
+.footer_info ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.seperate {
+    padding-bottom: 10px;
+}
+
+.line {
+    border-bottom: 1px dotted black;
+}
+
+.footer_info p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*footer_info END-------------------------------------*/
+
+.coloring {
+    background: black;
+}
+
+.bottomNav {
+    margin-top: 10px;
+    color: white;
+}
+
+.bottomNav ul {
+    padding: 0px;
+    text-align: left;
+}
+
+.bottomNav li{
+    padding-right: 10px;
+    display: inline;
+}
+
+.bottomNav a {
+    color: white;
+}
+
+.typing {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px 15px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    background: rgb(251, 251, 251);
+    font-size: 15px;
+}
+
+.click {
+    margin-top: 25px;
+    padding: 10px 15px;
+    background: #8eb53e;
+    color: white;
+    float: right;
+    text-transform: uppercase;
+}
+
+
+/*bottomNav END-------------------------------------*/
+
+.copyright {
+    text-align: right;
+}
+
+/*-Copyright END------------------------------------*/
+
+/*---Footer END------------------------------------------------------------*/
+
+/*Page one format END------------------------------------------------------------------------------------------------------------------------*/
+
+.thick_line {
+    height: 30px;
+    background: #8eb53e;
+}
+/*works for both page 2 and 3*/
+
+/*Header END---------------------------------------------------------------*/
+
+.pageTwo p {
+    margin-top: 10px;
+}
+
+.border_page {
+    margin-top: 40px;
+    border: 1px solid rgb(236, 236, 236);
+    background: white;
+}
+
+.border_page img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.border_page h1 {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+.border_page ul {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.border_page li {
+    padding-bottom: 5px;
+}
+
+.down_push {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*works for both page 2 and 3*/
+
+
+/*Main END-----------------------------------------------------------------*/
+
+
+
+
+/*Footer END---------------------------------------------------------------*/
+
+
+/*Page two format END------------------------------------------------------------------------------------------------------------------------*/
+
+.pageThree h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-bottom: 40px;
+    border-bottom: 4px dotted grey;
+}
+
+.search{
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid rgb(128, 128, 128);
+    font-size: 30px;
+    color: rgb(128, 128, 128);
+}
+
+.underline {
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+/*Page three format END----------------------------------------------------------------------------------------------------------------------*/
+
+/*for sm*/
+@media (min-width: 450px) and (max-width: 767px) {
+
+    .top img {
+        margin-left: 60px;
+    }
+
+    .topNav ul {
+        margin-left: 10px;
+    }
+
+    .topNav li {
+        padding: 0px 10px;
+    }
+
+    .topNav i {
+        height: 40px;
+        width: 40px;
+        background: #8eb53e;
+        color: white;
+        border-radius: 50%;
+        line-height: 2.9;
+        text-align: center;
+    }
+
+    /*topNav END------------------------------------------*/
+
+    .colors button{
+        width: 50%;
+        border-radius: 0;
+    }
+
+    .hero {
+        margin-bottom: 0px;
+    }
+
+    /*hero END------------------------------------------*/
+
+   .next_title {
+       text-align: center;
+   }
+
+   .next_info {
+       text-align: center;
+   }
+
+   .next_info h3 {
+       margin-bottom: 20px;
+       font-size: 20px;
+   }
+
+   .next_info p {
+       margin-top: 23px;
+   }
+
+   .next_info a {
+       padding: 10px 10px;
+   }
+
+   .move_up {
+       margin-top: 20px;
+   }
+
+   /*main middle END-------------------------------------*/
+
+   .final_info ul {
+        margin-left: 45px;
+   }
+
+   .small button {
+        margin-top: -15px;
+        margin-right: 295px;
+        height: 70px;
+        width: 100%;
+        border: 5px solid white;
+        font-size: 30px;
+        border-radius: 0;
+        line-height: 1.5;   
+        text-transform: capitalize;   
+   }
+
+   /*main bottom END------------------------------------*/
+   /*main END-------------------------------------------*/
+
+   footer {
+       text-align: center;
+   }
+
+   .media {
+       margin-bottom: 35px;
+       border-bottom: 1px solid rgb(222, 222, 222);
+   }
+
+   .footer_info {
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+   }
+
+   .space {
+    margin-bottom: 50px;
+   }
+
+   .bottomNav ul {
+       text-align: center;
+   }
+
+   .bottomNav li {
+       padding-right: 20px;
+   }
+
+   .copyright {
+       margin-top: 20px;
+       text-align: center;
+   }
+}
+/*media 450 END*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+    .top img {
+        margin-left: 20px;
+    }
+
+    .topNav {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .topNav ul {
+        margin: 0px;
+        padding: 0px; 
+    }
+
+    .topNav li {
+        padding: 0px 3px;
+    }
+
+    .topNav i {
+        height: 60px;
+        width: 60px;
+        border-radius: 25%;
+        font-size: 20px;
+        border-radius: 50%;
+        background: #8eb53e;
+        color: white;
+        line-height: 2.9;
+        text-align: center;
+        line-height: 3;
+    }
+
+    /*header END----------------------------------*/
+
+    .colors button{
+        width: 50%;
+        border-radius: 0;
+        height: 70px;
+        margin-top: 110px;
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .title_line {
+        margin-top: 70px;
+    }
+
+    .title h3 {
+        font-size: 19px;
+    }
+
+    .next_info {
+        margin-left: 50px;
+    }
+
+    .final_info {
+        margin-left: 90px;
+    }
+
+    .small button {
+        margin-top: -15px;
+        margin-right: 550px;
+        height: 70px;
+        width: 100%;
+        border: 5px solid white;
+        font-size: 30px;
+        border-radius: 0;
+        line-height: 1.5;   
+        text-transform: capitalize;   
+   }
+    /*main END-------------------------------------*/
+
+    .small {
+        margin-right: 40%; 
+   }
+
+   .footer_info {
+       margin-bottom: 0px;
+   }
+
+   .footer_info ul {
+       margin-bottom: 30px;
+   }
+    /*footer END----------------------------------- */
+} 
+
+
+
+/*media queries END------------------------------------------------------------------------------------------*/
